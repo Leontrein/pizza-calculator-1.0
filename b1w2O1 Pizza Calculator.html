@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+   <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+   <title>Opdracht 1 Pizza Calculator</title>
+</head>
+<body>
+  <h1>Opdracht 1 Pizza Calculator</h1>
+
+  <script>
+  /*voornaam: Leon
+  achternaam: Suijkerbuijk
+  Opdracht: Pizza Calculator */
+var Large = prompt("Hoeveel Large pizza's wilt u? (diameter = 40 cm) €8.99");
+var Medium = prompt("Hoeveel Medium pizza's wilt u? (diameter = 25 cm) €6.99");
+var Small = prompt("Hoeveel Small pizza's wilt u? (diameter = 15 cm) €4.99");
+const LARGEP = 8.99
+const MEDIUMP = 6.99
+const SMALLP = 4.99
+const T1 = 0.99
+const T2 = 0.30
+const T3 = 0.50
+if (Large > 0) {document.write("Large Pizza: 8.99 x", Large ,"=" ,Large * 6.99);
+} else {
+};
+document.write("<br>");
+if (Medium > 0) {document.write("Medium Pizza: 8.99 x", Medium ,"=" ,Medium * 6.99);
+} else {
+};
+document.write("<br>");
+if (Small > 0) {document.write("Small Pizza: 8.99 x", Small ,"=" ,Small * 4.99);
+} else {
+};
+document.write("<br>");
+document.write("Totaal:", LARGEP * Large + MEDIUMP * Medium + SMALLP * Small);
+var toppings = prompt("Wilt u nog toppings?, zo ja welke?");
+
+</script>
+ </body>
+</html>
